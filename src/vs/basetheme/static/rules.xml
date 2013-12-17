@@ -42,6 +42,9 @@
 
         <!-- Logo -->
         <replace css:content="#portal-logo" css:theme="#portal-logo" />
+        <replace css:content="#portal-logo img">
+            <img src="++theme++vs.basetheme/images/logo.png"  />
+        </replace>
 
         <!-- Header image -->
         <after theme-children="/html/head/style" if="$header-image != ''">
