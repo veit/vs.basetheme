@@ -1073,7 +1073,7 @@
     }
 
     #portal-footer {
-        border-top: 30px solid #969696;
+        border-top: 0 solid #969696;
         clear: both;
         line-height: 1.62em;
         margin: 2em 0 1em;
