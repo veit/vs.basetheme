@@ -1650,10 +1650,18 @@
         margin: 0 0 8px;
         min-height: 33px;
         background-color: #fafafa;
+        border: 0 solid #fafafa;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        -webkit-border-top-right-radius: 0;
+        -webkit-border-top-left-radius: 0;
+        -moz-border-radius-topleft: 0;
+        -moz-border-radius-topright: 0;
     }
 
     #content-views {
         float: left;
+        background-color: #fafafa;
     }
 
     #content-views li {
@@ -1668,9 +1676,32 @@
         text-decoration: none;
     }
 
+    #content-views a,
+    #content li.formTab a,
+    #content-core li.formTab a {
+        line-height: 26px;
+        padding: 4px 10px 2px 10px;
+    }
+
     #content-views li.selected a,
     #content-views li a:hover {
         background-color: #ededed;
+    }
+
+    #content-views li.selected a,
+    #content-views li a:hover,
+    #content li.formTab a.selected,
+    #content li.formTab a:hover,
+    #content-core li.formTab a.selected,
+    #content-core li.formTab a:hover {
+        background: white;
+        color: black;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        -webkit-border-top-right-radius: 0;
+        -webkit-border-top-left-radius: 0;
+        -moz-border-radius-topleft: 0;
+        -moz-border-radius-topright: 0;
     }
 
     #contentActionMenus {
@@ -1722,12 +1753,16 @@
         min-width: 100%;
         background-color: #fafafa;
         padding: 0;
-        line-height: 2.62em;
+        line-height: 1em;
     }
 
     .actionMenu dd li {
         border: 1px solid #e0e0e0;
         border-style: none none solid solid;
+    }
+
+    #contentActionMenus dl.actionMenu.activated dd {
+        border-bottom: none;
     }
 
     .actionMenu.deactivated dd {
@@ -1743,6 +1778,12 @@
         background-color: #969696;
         color: #fff;
         opacity: 0.5;
+    }
+
+    #contentActionMenus dl.actionMenu a,
+    #contentActionMenus dl.actionMenu.activated dd {
+        background-color: #fafafa;
+        color: #969696;
     }
 
     .subMenuTitle {
