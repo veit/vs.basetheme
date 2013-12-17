@@ -1032,8 +1032,13 @@
         right: 0;
     }
 
+    #portal-personaltools dd {
+        background: #fafafa;
+    }
+
     #portal-personaltools li {
         margin: 0;
+        display: block;
     }
 
     #portal-personaltools .actionMenuContent a {
@@ -1757,12 +1762,21 @@
     }
 
     .actionMenu dd li {
-        border: 1px solid #e0e0e0;
+        border: 1px solid #fafafa;
         border-style: none none solid solid;
     }
 
     #contentActionMenus dl.actionMenu.activated dd {
         border-bottom: none;
+    }
+
+    dl.actionMenu.activated dd {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        -webkit-border-bottom-right-radius: 0;
+        -webkit-border-bottom-left-radius: 0;
+        -moz-border-radius-bottomleft: 0;
+        -moz-border-radius-bottomright: 0;
     }
 
     .actionMenu.deactivated dd {
