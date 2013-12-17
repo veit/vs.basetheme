@@ -36,6 +36,7 @@ setup(name='vs.basetheme',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'plone.app.theming',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
