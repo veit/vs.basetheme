@@ -363,6 +363,10 @@
         font: 81% "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     a:link {
         color: #5981d2;
     }
