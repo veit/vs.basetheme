@@ -33,9 +33,9 @@
 @linkColorVisited:      #93a1bf;
 
 /* Typography */
-@import url("http://fonts.googleapis.com/css?family=Droid+Sans:400,700");
-@import url("http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
-@import url("http://fonts.googleapis.com/css?family=Droid+Sans+Mono:400");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono:400");
 
 @sansFontFamily:        "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @serifFontFamily:       "Droid Serif", Georgia, "Times New Roman", Times, serif;
@@ -2114,6 +2114,11 @@
         border-collapse: collapse;
         margin: 0 0 0.75em;
         width: 100%;
+    }
+
+    body.template-event_view table.listing,
+    body.template-event_view table.plain {
+        width: auto;
     }
 
     table.invisible td,
