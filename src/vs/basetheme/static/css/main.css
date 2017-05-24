@@ -415,6 +415,10 @@
         margin: 0 0 0.62em 27px;
     }
 
+    li {
+        display: list-item;
+    }
+
     strong {
         font-weight: bold;
     }
