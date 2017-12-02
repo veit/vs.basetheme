@@ -2121,7 +2121,9 @@
     }
 
     body.template-event_view table.listing,
-    body.template-event_view table.plain {
+    body.template-event_view table.plain,
+    body.template-newsitem_view table.listing,
+    body.template-newsitem_view table.plain {
         width: auto;
     }
 
